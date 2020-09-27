@@ -1,0 +1,59 @@
+.home {
+  display: flex;
+  /* background: url("tent-5441144_960_720.jpg") no-repeat center; */
+  background: url("mountains_comp.jpg") no-repeat center fixed;
+  background-color: white;
+  height: 100vh;
+  min-height: 500px;
+  font-family: "Ubuntu", sans-serif;
+  background-size: cover;
+  color: white;
+  align-items: center;
+}
+
+/* .home::after {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.home::after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+} */
+
+.home__maxWidth {
+  display: flex;
+  justify-content: space-between;
+  max-width: 90vw;
+  /* padding: 0 80px; */
+  align-items: center;
+  /* z-index: 1; */
+}
+
+.home__maxWidth {
+  margin: auto 0 auto 200px;
+}
+
+.home__text-1 {
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+
+.home__text-2 {
+  font-size: 75px;
+  font-weight: 600;
+}
+
+.home__text-3 {
+  font-size: 40px;
+  margin: 10px 0px;
+}
+
+.home__text-3 > span {
+  color: #888bcd;
+  font-weight: 700;
+}

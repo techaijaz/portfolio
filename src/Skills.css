@@ -1,0 +1,142 @@
+.skills {
+  padding: 100px 0;
+  font-family: "Poppins", sans-serif;
+}
+.skills__maxWidth {
+  display: flex;
+  justify-content: space-between;
+  max-width: 90vw;
+  margin: 0 auto;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skills__title {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.skills__title::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  background: #111;
+  transform: translateX(-50%);
+}
+
+.skills__title::after {
+  content: "What i know";
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  font-size: 20px;
+  color: #888bcd;
+  padding: 0 5px;
+  background: white;
+  transform: translateX(-50%);
+  width: 115px;
+}
+
+.skills__content {
+  display: flex;
+}
+
+.skills__columnLeft {
+  flex: 1;
+  width: calc(50% - 30px);
+  padding: 0 40px 0 40px;
+}
+.skills__columnRight {
+  flex: 1;
+  width: calc(50% - 30px);
+  padding: 0 40px 0 40px;
+}
+
+.skills__columnLeftText {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.skills__columnLeft a {
+  display: inline-block;
+  background: #888bcd;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 16px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid#888BCD;
+  transition: all 0.3s ease;
+}
+
+.skills__bars {
+  margin-bottom: 15px;
+}
+.skills__info {
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skills__info > span {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.skills__line {
+  height: 5px;
+  width: 100%;
+  background: lightgrey;
+  position: relative;
+}
+
+.skills__line::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #888bcd;
+}
+
+.skills__linePhp::before {
+  width: 80%;
+}
+
+.skills__lineMysql::before {
+  width: 70%;
+}
+
+.skills__lineJs::before {
+  width: 80%;
+}
+
+.skills__lineReact::before {
+  width: 50%;
+}
+
+.skills__lineNode::before {
+  width: 50%;
+}
+.skills__lineMongo::before {
+  width: 50%;
+}
+
+.skills__lineHtml::before {
+  width: 60%;
+}
+
+.skills__lineCss::before {
+  width: 50%;
+}

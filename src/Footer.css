@@ -1,0 +1,20 @@
+.footer {
+  background: #333;
+  padding: 15px 23px;
+  color: #fff;
+  text-align: center;
+}
+.footer span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer a {
+  color: #888bcd;
+  text-decoration: none;
+  font-weight: 700;
+}
+.footer .MuiSvgIcon-root {
+  font-size: 20px !important;
+  margin-top: 2px;
+}
